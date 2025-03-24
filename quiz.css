@@ -1,0 +1,171 @@
+body{
+    text-wrap: wrap;
+    text-size-adjust:inherit;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        text-wrap: wrap;
+    }
+}
+.item{
+    display:none;
+}
+#home{
+    display:block;
+}
+nav{
+    width:1270px;
+    height:60px;
+    padding-top:30px;
+    background-color:black;
+    color:aliceblue;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+}
+nav>a{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.py{
+    color: black;
+    font-family:cursive;
+    font-weight: bold;
+    margin-left: 400px;
+}
+.pyt{
+   /* color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;*/
+    font-weight: bolder;
+    font-size: 30px;
+    }
+    .pyth{
+        position: relative;
+        width:800px;
+        background-color: rgb(41, 180, 136);
+    }
+    .a{
+        width:500px;
+        height:500px;
+        background-color: aquamarine;
+        position: relative;
+        left:800px;
+        background-image: linear-gradient(to right,rgb(41, 180, 136) 49%,rgb(230, 222, 222) 50%);
+    }
+    .a>img{
+        width:450px;
+        height:450px;
+        position: relative;
+        top: 26px;
+        opacity: 1;
+        border-radius: 50%;
+        bottom:0px;
+        background-color: aquamarine;
+    }
+    .matter{
+        position: relative;
+        bottom: 400px;
+    }
+    button{
+        width:120px;
+        height:30px;
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+    }
+    .div1{
+        width:200px;
+        height:300px;
+    }
+    summary{
+        font-weight: bolder;
+        font-size: larger;
+    }
+    #center{
+        position: relative;
+        left:200px;
+        bottom:280px;
+        width: 1000px;
+        height:800px;
+        text-align: center;
+    }
+    .main_function{
+        position: relative;
+        left: 400px;
+        bottom: 200px;
+    }
+    .headings{
+        position: relative;
+        left:100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+        font-style: italic;
+    }
+details p{
+    cursor: pointer;
+}
+.about_us{
+    width:1300px;
+    height:800px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 2%;
+}
+.about_us>h1{
+    text-align: center;
+    font-family: monospace;
+    font-size:30px;
+    font-weight: bolder;
+    font-style:oblique;
+    color:rgb(103, 235, 235);
+}
+body{
+    width:1200vw;
+}
+.image{
+    position: relative;
+    top:140px;
+    left:60px;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+}
+.image1{
+    position: relative;
+    bottom: 250px;
+    left:460px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top:320px;
+    right:470px;
+    border:6px solid aqua;
+}
+footer>div{
+    width:300px;
+    height:250px;
+    border: 1px solid white;
+}
+p>span{
+    font-family:monospace;
+    color: aqua;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+}
+.tex1{
+    position: relative;
+    top:140px;
+    left:60px;
+}
